@@ -16,9 +16,15 @@ h1 {
     
 }
 
+
+div.paragraphs {
+ background-color: #EBEFF2;
+margin: 0;
+ padding: 50px;
+}
+
 img.img-responsive {
-    margin: 25;
-    cappity carpp;;;;
+    margin: 0;
     margin-right: auto;
     margin-left: auto;
 }
