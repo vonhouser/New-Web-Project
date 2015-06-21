@@ -1,6 +1,9 @@
 
 $(function () {
     $('#rowing').highcharts({
+        credits: {
+            enabled: false
+        },
         title: {
             text: 'Emotional Pain (or Lack Thereof) and Rowing',
             x: -20 //center
@@ -15,7 +18,7 @@ $(function () {
         },
         yAxis: {
             title: {
-                text: 'Emotional Pain'
+                text: ''
             },
             plotLines: [{
                 value: 0,
@@ -31,55 +34,55 @@ $(function () {
                 switch (value) {
                     case ('0 Meters'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/Grumpy.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/Grumpy.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                     case ('500'):
                         console.log('equals 500', value);
-                        return '<img src="/img/DoublewithRany.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/DoublewithRany.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                      case ('1000'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/Quaker.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/Quaker.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                     case ('1500'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/Quaker.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/Quaker.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                     case ('2000'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/TajandStacyRow.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/TajandStacyRow.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                     case ('3500'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/RegattaAfter.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/RegattaAfter.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                     case ('4000'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/Quaker.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/Quaker.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                     case ('5500'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/TajandMeganQuaker.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/TajandMeganQuaker.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                         case ('7000'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/RegattaAfter.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/RegattaAfter.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                         case ('7500'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/MeanFace.jpg.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/MeanFace.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                         case ('8000'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/StupidSprint.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/StupidSprint.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                         case ('8500'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/StupidSprint.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/StupidSprint.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                         case ('9000'):
                         console.log('equals 1500', value);
-                        return '<img src="/img/SunsetRow8.jpg" title="" alt="" border="0" height="250" width="220">';
+                        return '<img src="./img/SunsetRow8.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
                     default: 
                         console.log(value);
