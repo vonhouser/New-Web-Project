@@ -25,16 +25,20 @@ $(function () {
         },
         tooltip: {
             useHTML: true,
-            headerFormat: '<small>{point.key}</small><table>',
-            pointFormat: '<tr><td style="color: {series.color}">{series.name}: </td>' +
-            '<td style="text-align: right"><b>{point.y} EUR</b></td></tr>',
-            footerFormat: '</table>',
             formatter: function() {
-                var value = this.y;
+                var value = this.x;
                 
-                    switch (value) {
-                    case 500:
-                return '<img src="/img/brick.jpg" title="" alt="" border="0" height="250" width="220">';
+                switch (value) {
+                    case ('500'):
+                        console.log('equals 500', value);
+                        return '<img src="/img/brick.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                     case ('1500'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                    default: 
+                        console.log(value);
             }
         }
         },
