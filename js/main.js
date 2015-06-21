@@ -29,11 +29,55 @@ $(function () {
                 var value = this.x;
                 
                 switch (value) {
+                    case ('0'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
                     case ('500'):
                         console.log('equals 500', value);
                         return '<img src="/img/brick.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
-                     case ('1500'):
+                     case ('1000'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                    case ('1500'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                    case ('2000'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                    case ('3500'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                    case ('4000'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                    case ('5500'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                        case ('7000'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                        case ('7500'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                        case ('8000'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                        case ('8500'):
+                        console.log('equals 1500', value);
+                        return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
+                        break;
+                        case ('9000'):
                         console.log('equals 1500', value);
                         return '<img src="/img/vehicle.jpg" title="" alt="" border="0" height="250" width="220">';
                         break;
